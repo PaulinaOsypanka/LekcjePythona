@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Tk, Canvas
 from kolko_i_krzyzyk___FUNKCJE import *
 
 tura = 1
