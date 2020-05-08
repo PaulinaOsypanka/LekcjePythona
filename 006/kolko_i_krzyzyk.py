@@ -1,4 +1,4 @@
-from tkinter import Tk, Canvas
+from tkinter import *
 from kolko_i_krzyzyk___FUNKCJE import *
 
 tura = 1
@@ -34,13 +34,7 @@ def pozycja(klik):
 
     for i in range (0,3):
         if zajety_kibel[i + 3] == zajety_kibel[i + 6]:
-            if tura == 1:
-                print("łiner is kżyszyk")
-                return
-            
-            if tura == 2:
-                print("łiner is kułko")
-                return
+        po999999999999999999999999999999999999999999999999999999999999999
 
     if tura == 1:
         tura = 2
