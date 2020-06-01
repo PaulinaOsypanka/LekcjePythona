@@ -5,16 +5,16 @@ tura = 1
 
 def pozycja(klik): 
     global tura
-    global zajety_kibel
+    global zajety_pole
 
      
     
     p = pole(klik.x,klik.y)
 
 
-    if zajety_kibel[p - 1] == 0:
-        zajety_kibel[p - 1] = tura
-        print (zajety_kibel)
+    if zajety_pole[p - 1] == 0:
+        zajety_pole[p - 1] = tura
+        print (zajety_pole)
     else:
         return
 
@@ -33,8 +33,8 @@ def pozycja(klik):
             c.create_oval(x,y,x+100,y+100)
 
     for i in range (0,3):
-        if zajety_kibel[i + 3] == zajety_kibel[i + 6]:
-        po999999999999999999999999999999999999999999999999999999999999999
+        if zajety_pole[i + 3] == zajety_pole[i + 6]:
+            print('T')
 
     if tura == 1:
         tura = 2
@@ -42,7 +42,7 @@ def pozycja(klik):
     else :
         tura = 1
 
-zajety_kibel = [0,0,0,0,0,0,0,0,0]
+zajety_pole = [0,0,0,0,0,0,0,0,0]
 
 
 ono = Tk ()
