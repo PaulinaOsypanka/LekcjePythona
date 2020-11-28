@@ -34,3 +34,5 @@ litery.insert(4, nowe_litery)
 
 print (litery)
 
+920935734
+

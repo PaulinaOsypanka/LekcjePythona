@@ -1,23 +1,30 @@
 
-a = 0
-szczesliwe_liczby = []
+andu = []
 
-szczesliwe_liczby.append(0)
-szczesliwe_liczby.append(7)
-szczesliwe_liczby.append(12)
-szczesliwe_liczby.append(4)
-szczesliwe_liczby.append(16)
-szczesliwe_liczby.append(25)
-szczesliwe_liczby.append(60)
-szczesliwe_liczby.append(32)
-szczesliwe_liczby.append(54)
-szczesliwe_liczby.append(18)
+andu.append('k')
+andu.append('u')
+andu.append('p')
+andu.append('a')
+
+print(andu)
+
+print(andu[3])
+
+slon = []
+slon = ['s', 'ł', 'o', 'n', 'i', 'a']
+
+andu.insert(3 ,'k')
+
+andu.extend(slon)
+
+print(andu)
+
+del andu[10]
+
+print(andu)
 
 
-for a in range(len(szczesliwe_liczby)):
-    print(szczesliwe_liczby[a])
 
-    
-szczesliwe_liczby.sort()
+gdzie_jest_o_do_cholery = andu.index('o')
 
-print(szczesliwe_liczby)
+print('no, o jest na pozycji ', gdzie_jest_o_do_cholery)
