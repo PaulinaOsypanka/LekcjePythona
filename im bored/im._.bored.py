@@ -20,7 +20,6 @@ print(czekolady)
 
 czekolady[1][2]=czekolady[1][2]*3
 
+
 for u in czekolady:
     print(u)
-
-

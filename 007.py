@@ -15,3 +15,4 @@ for HDog in [0, 1]:
                     total_cal = HDog * dog_cal + Bun * bun_cal + Mus * mus_cal + Ket * ket_cal + Oni * onion_cal
                     print ("#", count, "\t", HDog, "\t", Bun, "\t", Ket, "\t", Mus, "\t", Oni, "\t", total_cal)
                     count = count + 1 
+

@@ -1,10 +1,13 @@
 
 andu = []
 
+andu.append('d')
+andu.append('z')
+andu.append('i')
+andu.append('e')
+andu.append('c')
 andu.append('k')
-andu.append('u')
-andu.append('p')
-andu.append('a')
+andu.append('o')
 
 print(andu)
 
@@ -12,8 +15,6 @@ print(andu[3])
 
 slon = []
 slon = ['s', 'ł', 'o', 'n', 'i', 'a']
-
-andu.insert(3 ,'k')
 
 andu.extend(slon)
 
@@ -25,6 +26,6 @@ print(andu)
 
 
 
-gdzie_jest_o_do_cholery = andu.index('o')
+gdzie_jest_o = andu.index('o')
 
-print('no, o jest na pozycji ', gdzie_jest_o_do_cholery)
+print('no, o jest na pozycji ', gdzie_jest_o)
