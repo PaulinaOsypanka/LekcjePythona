@@ -2,7 +2,7 @@ who = input('Who are you? I\'m ')
 if who == 'Paulina Osypanka':
     print('Oh, okay.')
     print('*Music stops*')
-    print('Waita a minute.. ')
+    print('Wait a minute.. ')
     exit()
 else:
     print('Ok, thanks.')
