@@ -12,7 +12,7 @@ class szpulka():
         self.color = nofykolor
 
     def __str__(self):
-        return "jestem piułka pigułka ja ha ja ja jaaaa"
+        return "jestem piułka pigułka ja ha ja ja jaaaa".
 
 # koszowapila = szpulka()
 # koszowapila.pomalujcieszpilkianiijejkuzynkinaczarnobojestmarno()
