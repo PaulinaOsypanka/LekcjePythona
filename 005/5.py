@@ -5,4 +5,4 @@ for x in range (5):
     else:
         print("duzoo")
 print(     )
-print(x)
+print(x)pip
