@@ -79,6 +79,7 @@ pygame.draw.ellipse(screen,kolor0,[a,b,c,d],0)
 do_gory(a,b,c,d,kolor1,kolor2)
 do_lewej(a,b,c,d,kolor1,kolor2)
 do_prawej(a,b,c,d,kolor1,kolor2)
+ 
 
 
 
