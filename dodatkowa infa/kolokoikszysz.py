@@ -93,7 +93,7 @@ def click(x, y):
         xo.penup()
         xo.goto(-150, 0)
         xo.clear()
-        xo.write(" Wygrało " + sprawdz(), font=("Turtul", 50))
+        xo.write(" Wygrało " + sprawdz(), font=("Turtul", ))
         return
 
     czygotowe = True
